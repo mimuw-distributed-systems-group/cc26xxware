@@ -149,7 +149,7 @@ extern "C"
 #define IOID_29                 0x0000001D  // IO Id 29
 #define IOID_30                 0x0000001E  // IO Id 30
 #define IOID_31                 0x0000001F  // IO Id 31
-#define IOID_UNUSED             0xFFFFFFFF  // Unused IO Id
+#define IOID_UNUSED             ((int)0xFFFFFFFF)  // Unused IO Id
 
 #define IOC_IOID_MASK           0x000000FF  // IOC IO Id bit mask
 
